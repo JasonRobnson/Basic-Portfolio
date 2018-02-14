@@ -34,11 +34,16 @@ header li:first-of-type {
 main{
     width: 650px;
     height: auto;
+    background-color: yellow;
+    opacity: .70;
 }
 sidebar{
-    width: 270px;
+    width: 260px;
+    height: 194;
     float: right;
     text-align: center;
+    background-color: blue;
+    opacity: .50;
 }
 
 #indeximage{
@@ -50,7 +55,32 @@ sidebar{
 #indexhr{
     text-align: center;
     margin: 0, auto;
+    width: 960px;
 }
 #floatleft{
-    float:left;
+    float: left;
 }
+#floatright{
+    float: right;
+}
+
+form{
+    float: left;
+    width: 627px;
+    height: 587px;
+}
+
+ 
+h1{
+    background-color: teal;
+    width: 237px;
+    height: 90px;
+}
+/*
+.navwrapper{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+
+}*/
